@@ -1,20 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Material - Algoritmos y programación I Camejo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 <body>
-	<h2>Teóricas</h2>
-	<ul>
-		{% for archivo in teoricas %}
-			<li><a href="material/{{ archivo }}" download>{{ archivo }}</a></li>
-		{% endfor %}
-	</ul>
-
-	<h2>Prácticas</h2>
-	<ul>
-		{% for archivo in practicas %}
-			<li><a href="material/{{ archivo }}" download>{{ archivo }}</a></li>
-		{% endfor %}
-	</ul>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="my-5">Material utilizado en clase</h1>
+			</div>
+		</div>
+	
+		<div class="row">
+			<div class="col-12 col-md-6">
+				<div class="card border-success">
+					<div class="card-header text-bg-success border-success">
+						Teóricas
+					</div>
+					<ul class="list-group list-group-flush">
+						{% for archivo in teoricas %}
+							<li class="list-group-item"><a href="material/teoricas/{{ archivo }}" download>{{ archivo }}</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+			<div class="col-12 col-md-6">
+				<div class="card border-primary">
+					<div class="card-header text-bg-primary border-primary">
+						Prácticas
+					</div>
+					<ul class="list-group list-group-flush">
+						{% for archivo in practicas %}
+							<li class="list-group-item"><a href="material/practicas/{{ archivo }}" download>{{ archivo }}</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
