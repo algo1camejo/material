@@ -3,10 +3,16 @@
 <head>
 </head>
 <body>
-	<p>Hola!</p>
-
+	<h2>Teóricas</h2>
 	<ul>
-		{% for archivo in archivos %}
+		{% for archivo in teoricas %}
+			<li><a href="material/{{ archivo }}" download>{{ archivo }}</a></li>
+		{% endfor %}
+	</ul>
+
+	<h2>Prácticas</h2>
+	<ul>
+		{% for archivo in practicas %}
 			<li><a href="material/{{ archivo }}" download>{{ archivo }}</a></li>
 		{% endfor %}
 	</ul>
