@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<p>Hola!</p>
+
+	<ul>
+		{% for archivo in archivos %}
+			<li><a href="/material/{{ archivo }}" download>{{ archivo }}</a></li>
+		{% endfor %}
+	</ul>
+</body>
+</html>
