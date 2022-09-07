@@ -22,4 +22,4 @@ jobs:
           rm -rf _build/
           pip install -r requirements.txt
           python build.py
-          cp -r material/* _build/material
+          cp -r material/ _build/material
