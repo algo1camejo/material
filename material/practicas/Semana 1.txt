@@ -1,0 +1,75 @@
+JOAQUIN
+- Comprar coca, fernet, hielo y vaso (si no tenes)
+- Poner mas o menos 10% hielo
+- 30% fernet
+- inclinar mas o menos 45 grados el vaso y completar con cocucha
+
+
+
+
+
+
+
+
+
+MARIANA
+- ir al super de la esquina y comprar cocucha, fernet y hielo.
+- agarrar vaso de vidrio del primer estante de la cocina
+- poner 30% de fernet, 70% de cocucha
+-poner 4 cubitos de hielo
+-agarrar una cuchara del cajon de la cocina y revolver
+
+
+
+
+
+
+
+MACARENA
+-Juntar en el area de trabajo un recipiente del tamaño que sea, una botella de fernet de 1 litro, 3 hielos, gaseosa cola de 1 litro, un palito o cubierto para mezclar
+-Agarrar el recipiente y llenar hasta la mitad de fernet
+-Agregar los 3 hielos
+-Agregar lentamente la cola
+-mezclar con el cubierto y disfrutar
+
+
+
+
+
+FELIPE
+-Saco la botella de la despensa, saco la copa de 150cc del estante de mariana
+-Sirvo 50cc de fernet
+-Repito en x copas
+-Sirvo 100cc de cola
+-Repito en x copas
+-Pongo las copas en la mesa
+
+
+
+
+
+
+
+
+DATOS DE ENTRADA: Fernet, hielo, vaso, coca, cuchara, despensa de mariana
+
+
+DATOS DE SALIDA: Fernet preparado
+
+PRECONDICIONES:
+tamaño del vaso (500ml)
+tamaño cubos de hielo (3cc)
+temperatura de la coca (5 grados centigrados) y el fernet (ambiente)
+marca de bebida (coca cola - 1882)
+minima cantidad para un fernet (fernet: 30% del vaso y coca 70% del vaso)
+
+POSTCONDICIONES: va a estar frio, que sea tomable, que no este fuerte, que no este lleno de espuma.
+
+
+
+SUBLIME // VSCODE (Visual Studio Code)
+
+
+indent-rainbow : da colorcitos para separar bloques de codigo
+prettier: te pone lindo todo
+Dracula: mi interfaz favorita de vscode
