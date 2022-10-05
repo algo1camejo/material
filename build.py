@@ -14,10 +14,15 @@ teoricas = []
 for archivo in os.listdir("material/teoricas"):
     teoricas += [archivo]
 
+apuntes = []
+for archivo in os.listdir("material/apuntes"):
+    apuntes += [archivo]
+
 teoricas.sort()
 practicas.sort()
+apuntes.sort()
 
-output = template.render({"teoricas": teoricas, "practicas": practicas})
+output = template.render({"teoricas": teoricas, "practicas": practicas, "apuntes": apuntes})
 
 os.system("mkdir -p _build")
 with open("_build/index.html", "w") as f:
