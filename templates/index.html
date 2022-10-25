@@ -39,6 +39,19 @@
 					</ul>
 				</div>
 			</div>
+
+			<div class="col-12 col-md-6">
+				<div class="card mb-4 border-success">
+					<div class="card-header text-bg-success border-success">
+						Apuntes
+					</div>
+					<ul class="list-group list-group-flush">
+						{% for archivo in apuntes %}
+							<li class="list-group-item"><a href="material/apuntes/{{ archivo }}" download>{{ archivo }}</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
